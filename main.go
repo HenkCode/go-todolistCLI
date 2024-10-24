@@ -1,14 +1,18 @@
 package main
 
 import (
-	"github.com/HenkCode/go-todolistCLI/controllers"
 	"fmt"
-	_"os"
+	"os"
+
+	"github.com/HenkCode/go-todolistCLI/controllers"
 )
+
+
 
 func main() {
 	for {
 		fmt.Println("Todo List CLI")
+		fmt.Println("--------------")
         fmt.Println("1. Lihat Todo")
         fmt.Println("2. Tambah Todo")
         fmt.Println("3. Tandai Selesai")
@@ -22,17 +26,18 @@ func main() {
 		switch choice {
 		case 1:
 			controller.ViewTodos()
-		// case 2:
-		// 	addTodo()
-		// case 3:
-		// 	markDone()
-		// case 4:
-		// 	deleteTodo()
-		// case 5:
-		// 	os.Exit(0)
+		case 2:
+			controller.AddTodos()
+		case 3:
+			controller.MarkDone()
+		case 4:
+			controller.DeleteTodos()
+		case 5:
+			os.Exit(0)
 		default:
 			fmt.Println("Opsi Tidak Ada")
 			
 		}
+		
 	}
 }
