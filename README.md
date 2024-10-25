@@ -12,12 +12,12 @@ Aplikasi ini memungkinkan pengguna untuk membuat, mengedit, menghapus, dan menam
 
 ## Teknologi yang Digunakan :
 
-Go (Golang)
+**Go** (Golang)
 
 ## Cara Menjalankan :
 
 1. Clone repositori ini.
-2. Jalankan perintah go run main.go / ./main.exe untuk memulai aplikasi.
+2. Jalankan perintah **go run main.go** atau **./main.exe** untuk memulai aplikasi.
    
 Dengan aplikasi ini, pengguna dapat mengelola tugas harian secara efisien dan sederhana hanya dengan CLI.
 
